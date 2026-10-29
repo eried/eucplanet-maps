@@ -1,0 +1,33 @@
+name: Verify routing tiles
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Sync routing tiles"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Get BRouter
+        run: |
+          curl -fsSL -o brouter.zip https://github.com/abrensch/brouter/releases/download/v1.7.10/brouter-1.7.10.zip
+          unzip -q brouter.zip -d brouter
+          JAR=$(find brouter -name 'brouter-*-all.jar' | head -1)
+          echo "JAR=$PWD/$JAR" >> "$GITHUB_ENV"
+          javac -cp "$JAR" -d scripts scripts/CheckTiles.java
+      - name: Check every tile
+        run: python3 scripts/verify_routing.py "$JAR"
