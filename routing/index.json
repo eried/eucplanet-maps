@@ -50,13 +50,25 @@
    "name": "E0_N40",
    "bytes": 119948079,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E0_N40.pmtiles",
+    "bytes": 348767267,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E0_N45",
    "bytes": 127702138,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E0_N45.pmtiles",
+    "bytes": 524401847,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E0_N5",
@@ -68,7 +80,13 @@
    "name": "E0_N50",
    "bytes": 79551869,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E0_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E0_N50.pmtiles",
+    "bytes": 524372125,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E0_N55",
@@ -98,25 +116,49 @@
    "name": "E100_N0",
    "bytes": 35441161,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N0.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N0.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E100_N0.pmtiles",
+    "bytes": 69346956,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E100_N10",
    "bytes": 35904944,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E100_N10.pmtiles",
+    "bytes": 55848705,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E100_N15",
    "bytes": 38203847,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N15.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N15.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E100_N15.pmtiles",
+    "bytes": 60786237,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E100_N20",
    "bytes": 30768511,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E100_N20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E100_N20.pmtiles",
+    "bytes": 44403166,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E100_N25",
@@ -218,7 +260,13 @@
    "name": "E105_N10",
    "bytes": 35782434,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_N10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_N10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E105_N10.pmtiles",
+    "bytes": 53779598,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E105_N15",
@@ -230,7 +278,13 @@
    "name": "E105_N20",
    "bytes": 43773966,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_N20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_N20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/E105_N20.pmtiles",
+    "bytes": 70231239,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "E105_N25",
@@ -308,7 +362,13 @@
    "name": "E105_S10",
    "bytes": 41708722,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_S10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E105_S10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E105_S10.pmtiles",
+    "bytes": 64956082,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E105_S15",
@@ -374,13 +434,25 @@
    "name": "E10_N40",
    "bytes": 80323368,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E10_N40.pmtiles",
+    "bytes": 230200182,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E10_N45",
    "bytes": 199172628,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E10_N45.pmtiles",
+    "bytes": 524386830,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E10_N5",
@@ -392,19 +464,37 @@
    "name": "E10_N50",
    "bytes": 125185546,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E10_N50.pmtiles",
+    "bytes": 524434915,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E10_N55",
    "bytes": 64858754,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N55.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N55.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E10_N55.pmtiles",
+    "bytes": 321603582,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E10_N60",
    "bytes": 28995404,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N60.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E10_N60.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E10_N60.pmtiles",
+    "bytes": 161122008,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E10_N65",
@@ -482,7 +572,13 @@
    "name": "E110_N20",
    "bytes": 33606424,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E110_N20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E110_N20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/E110_N20.pmtiles",
+    "bytes": 78998151,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "E110_N25",
@@ -560,7 +656,13 @@
    "name": "E110_S10",
    "bytes": 38384031,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E110_S10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E110_S10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E110_S10.pmtiles",
+    "bytes": 56813759,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E110_S25",
@@ -908,7 +1010,13 @@
    "name": "E125_N35",
    "bytes": 67496989,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E125_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E125_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E125_N35.pmtiles",
+    "bytes": 140608832,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E125_N40",
@@ -1028,7 +1136,13 @@
    "name": "E130_N30",
    "bytes": 79057780,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E130_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E130_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E130_N30.pmtiles",
+    "bytes": 102791853,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E130_N35",
@@ -1148,13 +1262,25 @@
    "name": "E135_N30",
    "bytes": 34543841,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E135_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E135_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/E135_N30.pmtiles",
+    "bytes": 61377057,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "E135_N35",
    "bytes": 100524807,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E135_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E135_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E135_N35.pmtiles",
+    "bytes": 164884302,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E135_N40",
@@ -1292,7 +1418,13 @@
    "name": "E140_N35",
    "bytes": 38391139,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E140_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E140_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E140_N35.pmtiles",
+    "bytes": 60121429,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E140_N40",
@@ -1736,13 +1868,25 @@
    "name": "E15_N40",
    "bytes": 54882040,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/E15_N40.pmtiles",
+    "bytes": 141100522,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "E15_N45",
    "bytes": 130241811,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E15_N45.pmtiles",
+    "bytes": 524440147,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E15_N5",
@@ -1754,7 +1898,13 @@
    "name": "E15_N50",
    "bytes": 90463930,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E15_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E15_N50.pmtiles",
+    "bytes": 516646663,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E15_N55",
@@ -2216,19 +2366,37 @@
    "name": "E20_N35",
    "bytes": 45946211,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/E20_N35.pmtiles",
+    "bytes": 76647534,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "E20_N40",
    "bytes": 66509807,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E20_N40.pmtiles",
+    "bytes": 206868983,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E20_N45",
    "bytes": 67781494,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E20_N45.pmtiles",
+    "bytes": 285305299,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E20_N5",
@@ -2240,7 +2408,13 @@
    "name": "E20_N50",
    "bytes": 68788460,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E20_N50.pmtiles",
+    "bytes": 417384576,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E20_N55",
@@ -2252,7 +2426,13 @@
    "name": "E20_N60",
    "bytes": 38284911,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N60.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E20_N60.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E20_N60.pmtiles",
+    "bytes": 143719339,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E20_N65",
@@ -2360,13 +2540,25 @@
    "name": "E25_N40",
    "bytes": 38151912,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E25_N40.pmtiles",
+    "bytes": 114087143,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E25_N45",
    "bytes": 40955126,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E25_N45.pmtiles",
+    "bytes": 181751232,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E25_N5",
@@ -2378,7 +2570,13 @@
    "name": "E25_N50",
    "bytes": 29012572,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E25_N50.pmtiles",
+    "bytes": 158298857,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E25_N55",
@@ -2390,7 +2588,13 @@
    "name": "E25_N60",
    "bytes": 38527293,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N60.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_N60.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E25_N60.pmtiles",
+    "bytes": 152016851,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E25_N65",
@@ -2438,7 +2642,13 @@
    "name": "E25_S30",
    "bytes": 30895080,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_S30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E25_S30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E25_S30.pmtiles",
+    "bytes": 56049903,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E25_S35",
@@ -2456,7 +2666,13 @@
    "name": "E30_N0",
    "bytes": 40556148,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_N0.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_N0.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E30_N0.pmtiles",
+    "bytes": 54596686,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E30_N10",
@@ -2486,7 +2702,13 @@
    "name": "E30_N30",
    "bytes": 30663150,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E30_N30.pmtiles",
+    "bytes": 86320793,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E30_N35",
@@ -2582,7 +2804,13 @@
    "name": "E30_S5",
    "bytes": 65566200,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_S5.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E30_S5.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E30_S5.pmtiles",
+    "bytes": 60611468,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E35_N0",
@@ -2624,7 +2852,13 @@
    "name": "E35_N35",
    "bytes": 32789596,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/E35_N35.pmtiles",
+    "bytes": 65144362,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "E35_N40",
@@ -2654,7 +2888,13 @@
    "name": "E35_N55",
    "bytes": 36550098,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_N55.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_N55.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E35_N55.pmtiles",
+    "bytes": 190834110,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E35_N60",
@@ -2696,7 +2936,13 @@
    "name": "E35_S5",
    "bytes": 34702971,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_S5.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E35_S5.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E35_S5.pmtiles",
+    "bytes": 40340387,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E35_S50",
@@ -2756,7 +3002,13 @@
    "name": "E40_N40",
    "bytes": 30814002,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E40_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E40_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E40_N40.pmtiles",
+    "bytes": 119499196,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E40_N45",
@@ -2930,13 +3182,25 @@
    "name": "E45_S20",
    "bytes": 30124288,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E45_S20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E45_S20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E45_S20.pmtiles",
+    "bytes": 34821407,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E45_S25",
    "bytes": 42286553,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E45_S25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E45_S25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E45_S25.pmtiles",
+    "bytes": 32421999,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E45_S30",
@@ -3212,13 +3476,25 @@
    "name": "E5_N40",
    "bytes": 69298132,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/E5_N40.pmtiles",
+    "bytes": 171767128,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "E5_N45",
    "bytes": 252948700,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E5_N45.pmtiles",
+    "bytes": 524356556,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E5_N5",
@@ -3230,13 +3506,25 @@
    "name": "E5_N50",
    "bytes": 182525020,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/E5_N50.pmtiles",
+    "bytes": 524340301,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "E5_N55",
    "bytes": 33744012,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N55.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E5_N55.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/E5_N55.pmtiles",
+    "bytes": 208990040,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "E5_N60",
@@ -3452,7 +3740,13 @@
    "name": "E70_N30",
    "bytes": 38975889,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E70_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E70_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/E70_N30.pmtiles",
+    "bytes": 64772919,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "E70_N35",
@@ -3536,13 +3830,25 @@
    "name": "E75_N10",
    "bytes": 57569780,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E75_N10.pmtiles",
+    "bytes": 104897041,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E75_N15",
    "bytes": 29871366,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N15.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N15.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/E75_N15.pmtiles",
+    "bytes": 58406627,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "E75_N20",
@@ -3554,7 +3860,13 @@
    "name": "E75_N25",
    "bytes": 50474062,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E75_N25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/E75_N25.pmtiles",
+    "bytes": 82622861,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "E75_N30",
@@ -3674,7 +3986,13 @@
    "name": "E80_N25",
    "bytes": 59860878,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E80_N25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E80_N25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/E80_N25.pmtiles",
+    "bytes": 78421218,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "E80_N30",
@@ -3752,13 +4070,25 @@
    "name": "E85_N20",
    "bytes": 37144064,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E85_N20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E85_N20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/E85_N20.pmtiles",
+    "bytes": 55512499,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "E85_N25",
    "bytes": 51851493,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E85_N25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E85_N25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/E85_N25.pmtiles",
+    "bytes": 73634281,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "E85_N30",
@@ -3938,7 +4268,13 @@
    "name": "E95_N15",
    "bytes": 32460656,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E95_N15.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/E95_N15.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/E95_N15.pmtiles",
+    "bytes": 59411402,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "E95_N20",
@@ -4058,7 +4394,13 @@
    "name": "W100_N15",
    "bytes": 40905839,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N15.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N15.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/W100_N15.pmtiles",
+    "bytes": 64653887,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "W100_N20",
@@ -4070,19 +4412,37 @@
    "name": "W100_N25",
    "bytes": 35311224,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/W100_N25.pmtiles",
+    "bytes": 74765362,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "W100_N30",
    "bytes": 64222697,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/W100_N30.pmtiles",
+    "bytes": 196219072,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "W100_N35",
    "bytes": 33063215,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W100_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W100_N35.pmtiles",
+    "bytes": 69294805,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W100_N40",
@@ -4238,19 +4598,37 @@
    "name": "W10_N30",
    "bytes": 34226367,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W10_N30.pmtiles",
+    "bytes": 49091903,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W10_N35",
    "bytes": 46232204,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W10_N35.pmtiles",
+    "bytes": 111216077,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W10_N40",
    "bytes": 76792890,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W10_N40.pmtiles",
+    "bytes": 154860615,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W10_N45",
@@ -4268,7 +4646,13 @@
    "name": "W10_N50",
    "bytes": 43206159,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W10_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W10_N50.pmtiles",
+    "bytes": 124359302,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W10_N55",
@@ -4340,7 +4724,13 @@
    "name": "W110_N35",
    "bytes": 36769512,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W110_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W110_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/W110_N35.pmtiles",
+    "bytes": 102734144,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "W110_N40",
@@ -4418,7 +4808,13 @@
    "name": "W115_N30",
    "bytes": 33301658,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W115_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W115_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W115_N30.pmtiles",
+    "bytes": 126823612,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W115_N35",
@@ -4430,7 +4826,13 @@
    "name": "W115_N40",
    "bytes": 31422809,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W115_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W115_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W115_N40.pmtiles",
+    "bytes": 85085989,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W115_N45",
@@ -4478,13 +4880,25 @@
    "name": "W120_N30",
    "bytes": 53259309,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W120_N30.pmtiles",
+    "bytes": 234434132,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W120_N35",
    "bytes": 31188535,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/W120_N35.pmtiles",
+    "bytes": 69485253,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "W120_N40",
@@ -4496,7 +4910,13 @@
    "name": "W120_N45",
    "bytes": 28691331,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W120_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/W120_N45.pmtiles",
+    "bytes": 62863228,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "W120_N50",
@@ -4544,19 +4964,37 @@
    "name": "W125_N35",
    "bytes": 55881271,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W125_N35.pmtiles",
+    "bytes": 187684445,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W125_N40",
    "bytes": 37833159,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/W125_N40.pmtiles",
+    "bytes": 83896527,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "W125_N45",
    "bytes": 67096847,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-1/W125_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/W125_N45.pmtiles",
+    "bytes": 267549388,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "W125_N50",
@@ -5480,7 +5918,13 @@
    "name": "W40_S10",
    "bytes": 34508065,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W40_S10.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W40_S10.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W40_S10.pmtiles",
+    "bytes": 53483478,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W40_S15",
@@ -5546,13 +5990,25 @@
    "name": "W45_S20",
    "bytes": 28540997,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W45_S20.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W45_S20.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/W45_S20.pmtiles",
+    "bytes": 55067946,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "W45_S25",
    "bytes": 32828692,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W45_S25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W45_S25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W45_S25.pmtiles",
+    "bytes": 60364124,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W45_S5",
@@ -5618,7 +6074,13 @@
    "name": "W50_S25",
    "bytes": 52423909,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W50_S25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W50_S25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W50_S25.pmtiles",
+    "bytes": 135481910,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W50_S30",
@@ -5708,7 +6170,13 @@
    "name": "W55_S30",
    "bytes": 37626231,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W55_S30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W55_S30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-5/W55_S30.pmtiles",
+    "bytes": 76143830,
+    "date": 1793318400000,
+    "checked": 1793380640714
+   }
   },
   {
    "name": "W55_S35",
@@ -5768,19 +6236,37 @@
    "name": "W5_N35",
    "bytes": 62090339,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/W5_N35.pmtiles",
+    "bytes": 146425555,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "W5_N40",
    "bytes": 91689411,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W5_N40.pmtiles",
+    "bytes": 246127322,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W5_N45",
    "bytes": 64430167,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/W5_N45.pmtiles",
+    "bytes": 322811110,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "W5_N5",
@@ -5792,7 +6278,13 @@
    "name": "W5_N50",
    "bytes": 139311437,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N50.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W5_N50.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/W5_N50.pmtiles",
+    "bytes": 513852771,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "W5_N55",
@@ -6272,13 +6764,25 @@
    "name": "W75_N40",
    "bytes": 119750873,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W75_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W75_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/W75_N40.pmtiles",
+    "bytes": 524458237,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "W75_N45",
    "bytes": 29928050,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W75_N45.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W75_N45.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-7/W75_N45.pmtiles",
+    "bytes": 149482870,
+    "date": 1793318400000,
+    "checked": 1793380640604
+   }
   },
   {
    "name": "W75_N5",
@@ -6440,13 +6944,25 @@
    "name": "W80_N35",
    "bytes": 115204652,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W80_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W80_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/W80_N35.pmtiles",
+    "bytes": 395648094,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "W80_N40",
    "bytes": 77251720,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W80_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W80_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W80_N40.pmtiles",
+    "bytes": 309412945,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W80_N45",
@@ -6566,25 +7082,49 @@
    "name": "W85_N25",
    "bytes": 53095593,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N25.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N25.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W85_N25.pmtiles",
+    "bytes": 178788407,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W85_N30",
    "bytes": 69854242,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W85_N30.pmtiles",
+    "bytes": 174371922,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W85_N35",
    "bytes": 101346235,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-0/W85_N35.pmtiles",
+    "bytes": 212320399,
+    "date": 1793318400000,
+    "checked": 1793380640914
+   }
   },
   {
    "name": "W85_N40",
    "bytes": 75632522,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W85_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W85_N40.pmtiles",
+    "bytes": 187690961,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W85_N45",
@@ -6698,19 +7238,37 @@
    "name": "W90_N30",
    "bytes": 41902545,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/W90_N30.pmtiles",
+    "bytes": 109888010,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "W90_N35",
    "bytes": 61432400,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-2/W90_N35.pmtiles",
+    "bytes": 136731431,
+    "date": 1793318400000,
+    "checked": 1793380640641
+   }
   },
   {
    "name": "W90_N40",
    "bytes": 79380366,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W90_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-1/W90_N40.pmtiles",
+    "bytes": 208049570,
+    "date": 1793318400000,
+    "checked": 1793380642253
+   }
   },
   {
    "name": "W90_N45",
@@ -6800,19 +7358,37 @@
    "name": "W95_N30",
    "bytes": 33862255,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N30.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N30.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-6/W95_N30.pmtiles",
+    "bytes": 72464456,
+    "date": 1793318400000,
+    "checked": 1793380642004
+   }
   },
   {
    "name": "W95_N35",
    "bytes": 56925607,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N35.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N35.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-3/W95_N35.pmtiles",
+    "bytes": 116398606,
+    "date": 1793318400000,
+    "checked": 1793380640834
+   }
   },
   {
    "name": "W95_N40",
    "bytes": 39702745,
    "date": 1793232180000,
-   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N40.rd5"
+   "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_N40.rd5",
+   "map": {
+    "url": "https://github.com/eried/eucplanet-maps/releases/download/map-20261030-4/W95_N40.pmtiles",
+    "bytes": 108566238,
+    "date": 1793318400000,
+    "checked": 1793380641537
+   }
   },
   {
    "name": "W95_N45",
@@ -6862,5 +7438,7 @@
    "date": 1793232180000,
    "url": "https://github.com/eried/eucplanet-maps/releases/download/routing-20261029-2/W95_S5.rd5"
   }
- ]
+ ],
+ "maps_retired": [],
+ "maps_license": "Map data (c) OpenStreetMap contributors, ODbL 1.0. Vector tiles by Protomaps."
 }
