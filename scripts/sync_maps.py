@@ -82,9 +82,9 @@ def plan(count, batches):
         count = math.ceil(len(tiles) / ROUND)
     week = dt.date.today().isocalendar()
     names = order(tiles, "%d-%d" % (week[0], week[1]))[:count]
-    size = -(-len(names) // batches)
-    matrix = [{"batch": i, "names": " ".join(names[i * size:(i + 1) * size])}
-              for i in range(batches) if names[i * size:(i + 1) * size]]
+    # Dealt round, so the biggest squares do not all land in one job.
+    matrix = [{"batch": i, "names": " ".join(names[i::batches])}
+              for i in range(batches) if names[i::batches]]
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")
     print(json.dumps({"build": build, "stamp": stamp, "batches": matrix}))
 
