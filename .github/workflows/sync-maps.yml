@@ -55,9 +55,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/sync_maps.py cut "${{ needs.plan.outputs.build }}" "${{ needs.plan.outputs.stamp }}" "${{ matrix.batch }}" ${{ matrix.names }}
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: maps-${{ matrix.batch }}
           path: maps-${{ matrix.batch }}.json
+          if-no-files-found: ignore
 
   index:
     needs: [plan, cut]

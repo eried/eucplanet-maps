@@ -7,7 +7,8 @@ app draws deeper tiles from that parent, translated names go, and the z15
 tiles keep only buildings (house numbers). Outside towns (a z14 tile with
 fewer than TOWN_ADDRESSES house numbers under it) the square stops at z13;
 paths are already there. That is what keeps a square a fraction of the full
-map's size. LAST must match OfflineMapStyle.LAST_ZOOM in the app.
+map's size. A dense square that would still pass CAP keeps the detail of
+its biggest towns only: the town with the fewest house numbers goes first. LAST must match OfflineMapStyle.LAST_ZOOM in the app.
 
 usage: cut_maps.py <planet.pmtiles url> <out dir> <square> [<square> ...]
        squares are named like the routing tiles: E10_N55, W5_S5
@@ -23,6 +24,7 @@ LAST = {"earth": 13, "water": 13, "landuse": 10, "boundaries": 10,
         "roads": 14, "pois": 14, "places": 14, "buildings": 15}
 DROP_KEYS = ("sort_rank", "wikidata", "population_rank", "sort_key")
 TOWN_ADDRESSES = 50
+CAP = 500 << 20          # bytes of tiles a square may hold
 HDR = "<7sBQQQQQQQQQQQBBBBBBiiiiBii"
 
 
@@ -309,26 +311,41 @@ def cut(planet, name, out_path):
         z, x, y = tid_xy(tid)
         if z == 15:
             town[(x >> 1, y >> 1)] = town.get((x >> 1, y >> 1), 0) + addresses(gzip.decompress(blobs[src]))
-    towns = {k for k, n in town.items() if n >= TOWN_ADDRESSES}
+    zxy = {tid: tid_xy(tid) for tid in found}
+    enc = {}
 
-    data = bytearray(); done = {}; byblob = {}; entries = []
+    def tile(tid):
+        key = (found[tid], zxy[tid][0])
+        if key not in enc:
+            t = slim(gzip.decompress(blobs[found[tid]]), key[1])
+            enc[key] = gzip.compress(t, 9, mtime=0) if t else None
+        return enc[key]
+
+    # Biggest towns first, until the square is full.
+    under = {}
+    for tid, (z, x, y) in zxy.items():
+        if z >= 14:
+            under.setdefault((x, y) if z == 14 else (x >> 1, y >> 1), []).append(tid)
+    used = sum(len(b) for b in {tile(t) for t in found if zxy[t][0] < 14} if b)
+    towns = set()
+    for k in sorted((k for k, n in town.items() if n >= TOWN_ADDRESSES), key=lambda k: -town[k]):
+        cost = sum(len(b) for b in {tile(t) for t in under[k]} if b)
+        if used + cost > CAP:
+            print(f"{name}: full at {len(towns)} of the towns, {town[k]} house numbers", flush=True)
+            break
+        towns.add(k); used += cost
+
+    data = bytearray(); byblob = {}; entries = []
     for tid in sorted(found):
-        z, x, y = tid_xy(tid)
+        z, x, y = zxy[tid]
         if z == 14 and (x, y) not in towns or z == 15 and (x >> 1, y >> 1) not in towns:
             continue
-        key = (found[tid], z)
-        if key not in done:
-            t = slim(gzip.decompress(blobs[found[tid]]), z)
-            if not t:
-                done[key] = None
-            else:
-                blob = gzip.compress(t, 9, mtime=0)
-                if blob not in byblob:
-                    byblob[blob] = (len(data), len(blob)); data += blob
-                done[key] = byblob[blob]
-        if done[key] is None:
+        blob = tile(tid)
+        if blob is None:
             continue
-        off, ln = done[key]
+        if blob not in byblob:
+            byblob[blob] = (len(data), len(blob)); data += blob
+        off, ln = byblob[blob]
         if entries and entries[-1][0] + entries[-1][1] == tid and entries[-1][2] == off:
             entries[-1] = (entries[-1][0], entries[-1][1] + 1, off, ln)
         else:

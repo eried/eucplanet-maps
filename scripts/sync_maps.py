@@ -62,13 +62,14 @@ def load():
 
 
 def order(tiles, week):
-    """Squares by how much they need a look: no map first, then the longest
-    since checked; ties shuffled by a hash of the week, so runs do not walk
-    the map in the same order."""
+    """Squares by how much they need a look: no map first, busiest (most
+    routing data) before empty ones, then the longest since checked; ties
+    shuffled by a hash of the week, so runs do not walk the map in the same
+    order."""
     def key(t):
         m = t.get("map") or {}
         shuffle = hashlib.sha256(("%s:%s" % (week, t["name"])).encode()).hexdigest()
-        return (1 if m else 0, m.get("checked", 0), shuffle)
+        return (1 if m else 0, 0 if m else -t.get("bytes", 0), m.get("checked", 0), shuffle)
     return [t["name"] for t in sorted(tiles, key=key)]
 
 
@@ -136,8 +137,10 @@ def cut(build, stamp, batch, names):
         finally:
             if os.path.exists(path):
                 os.remove(path)
-    with open("maps-%s.json" % batch, "w") as f:
-        json.dump(out, f)
+        # Written after every square: a job cut off by its time limit still
+        # hands over what it uploaded.
+        with open("maps-%s.json" % batch, "w") as f:
+            json.dump(out, f)
 
 
 def asset_of(url):
