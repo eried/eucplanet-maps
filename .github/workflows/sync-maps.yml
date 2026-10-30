@@ -1,9 +1,20 @@
 name: Sync map squares
 
+# Weekly, a slice of the squares: the ones checked longest ago are cut from
+# the newest Protomaps build and uploaded only if they changed. Every square
+# comes round about every 12 weeks. Run it by hand with a bigger count to
+# fill the mirror the first time (count 0 means the weekly slice).
 on:
   schedule:
-    - cron: "0 3 4 * *"   # the 4th of every month, after the routing sync on the 2nd
+    - cron: "41 4 * * 3"   # Wednesdays, 04:41 UTC
   workflow_dispatch:
+    inputs:
+      count:
+        description: "Squares to look at (0 = the weekly slice, 1200 = all)"
+        default: "0"
+      batches:
+        description: "Parallel jobs"
+        default: "8"
 
 permissions:
   contents: write
@@ -23,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
       - id: p
         run: |
-          out=$(python3 scripts/sync_maps.py plan 40)
+          out=$(python3 scripts/sync_maps.py plan "${{ inputs.count || '0' }}" "${{ inputs.batches || '8' }}")
           echo "build=$(echo "$out" | jq -r .build)" >> "$GITHUB_OUTPUT"
           echo "stamp=$(echo "$out" | jq -r .stamp)" >> "$GITHUB_OUTPUT"
           echo "batches=$(echo "$out" | jq -c .batches)" >> "$GITHUB_OUTPUT"
@@ -39,7 +50,7 @@ jobs:
         include: ${{ fromJson(needs.plan.outputs.batches) }}
     steps:
       - uses: actions/checkout@v4
-      - name: Cut and upload squares
+      - name: Cut, compare and upload
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/sync_maps.py cut "${{ needs.plan.outputs.build }}" "${{ needs.plan.outputs.stamp }}" "${{ matrix.batch }}" ${{ matrix.names }}
@@ -61,7 +72,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          python3 scripts/sync_maps.py index "${{ needs.plan.outputs.stamp }}" batches
+          python3 scripts/sync_maps.py index batches
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add routing/index.json

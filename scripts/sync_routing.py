@@ -174,8 +174,9 @@ def main():
         "lookups": lookups,
         "tiles": tiles,
     }
-    if "maps_license" in old:
-        new["maps_license"] = old["maps_license"]
+    for key in ("maps_license", "maps_retired"):
+        if key in old:
+            new[key] = old[key]
     os.makedirs(os.path.dirname(INDEX), exist_ok=True)
     with open(INDEX, "w") as f:
         json.dump(new, f, indent=1)
