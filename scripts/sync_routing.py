@@ -161,6 +161,11 @@ def main():
         sys.exit("no lookups.dat; index not updated")
 
     tiles.sort(key=lambda t: t["name"])
+    # The map squares are synced by sync_maps.py: keep each square's map.
+    for t in tiles:
+        prev = old_tiles.get(t["name"])
+        if prev and "map" in prev:
+            t["map"] = prev["map"]
     new = {
         "version": 1,
         "source": SRC,
@@ -169,6 +174,8 @@ def main():
         "lookups": lookups,
         "tiles": tiles,
     }
+    if "maps_license" in old:
+        new["maps_license"] = old["maps_license"]
     os.makedirs(os.path.dirname(INDEX), exist_ok=True)
     with open(INDEX, "w") as f:
         json.dump(new, f, indent=1)
