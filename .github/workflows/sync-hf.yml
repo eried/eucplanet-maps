@@ -1,0 +1,32 @@
+name: Copy to Hugging Face
+
+# After every routing or map sync, copies what changed to the Hugging Face
+# dataset (huggingface.co/datasets/eucplanet/eucplanet-maps) and publishes
+# its own index there. The app reads that one first.
+on:
+  workflow_run:
+    workflows: ["Sync routing tiles", "Sync map squares"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-hf
+  cancel-in-progress: false
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: pip install "huggingface_hub[hf_xet]>=0.30"
+      - name: Copy and publish the index
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_HUB_DISABLE_PROGRESS_BARS: "1"
+        run: python3 scripts/sync_hf.py

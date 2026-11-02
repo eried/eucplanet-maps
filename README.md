@@ -21,6 +21,17 @@ The app reads the index from:
 https://raw.githubusercontent.com/eried/eucplanet-maps/main/routing/index.json
 ```
 
+## Second copy on Hugging Face
+
+Everything here is also copied to
+[huggingface.co/datasets/eucplanet/eucplanet-maps](https://huggingface.co/datasets/eucplanet/eucplanet-maps)
+by `.github/workflows/sync-hf.yml`, after each routing or map sync. Its own
+index links the copies, and the app reads it first:
+
+```
+https://huggingface.co/datasets/eucplanet/eucplanet-maps/resolve/main/routing/index.json
+```
+
 ## Credits and license
 
 - Map data (c) [OpenStreetMap](https://www.openstreetmap.org/copyright)
