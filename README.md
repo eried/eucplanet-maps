@@ -21,6 +21,12 @@ The app reads the index from:
 https://raw.githubusercontent.com/eried/eucplanet-maps/main/routing/index.json
 ```
 
+## Map squares
+
+Each square also has a `.pmtiles` street map, cut from the
+[Protomaps](https://protomaps.com) build. `.github/workflows/sync-maps.yml`
+refreshes a slice of them every Wednesday.
+
 ## Second copy on Hugging Face
 
 Everything here is also copied to
@@ -40,4 +46,6 @@ https://huggingface.co/datasets/eucplanet/eucplanet-maps/resolve/main/routing/in
   The tiles here are a derived database under the same license.
 - Tiles built by [BRouter](https://brouter.de) (MIT), from
   `https://brouter.de/brouter/segments4/`.
+- Map squares cut from the [Protomaps](https://protomaps.com) daily
+  OpenStreetMap build.
 - The scripts in this repository are MIT licensed.
